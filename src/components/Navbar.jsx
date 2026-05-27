@@ -1,7 +1,11 @@
+import SearchBar from "./SearchBar";
+
 function Navbar() {
   return (
     <nav className="navbar">
       <h2>My Portfolio</h2>
+
+      <SearchBar />
 
       <ul>
         <li><a href="#home">Home</a></li>

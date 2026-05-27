@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import LocationDropdown from "./components/LocationDropdown";
 import AIIntro from "./ai/AIIntro";
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
       <Skills />
       <Projects />
       <Education />
+      <LocationDropdown />
       <Contact />
     </>
   );
